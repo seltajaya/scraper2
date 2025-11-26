@@ -10,10 +10,10 @@ const { HttpsProxyAgent } = require('https-proxy-agent');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// supaya JSON yang keluar di browser kelihatan rapi (2 spasi)
+
 app.set('json spaces', 2);
 
-// ====== LOG FILE UNTUK PROXY ======
+// ====== LOG FILE PROXY ======
 const LOG_FILE = path.join(__dirname, 'proxy-usage.log');
 
 function logProxyUsage({ proxyUrl, success, status, errorCode, note }) {
@@ -37,12 +37,12 @@ function logProxyUsage({ proxyUrl, success, status, errorCode, note }) {
     }
   });
 
-  // update in-memory state untuk cooldown
+  // update in-memory state  cooldown
   markProxyState(proxyUrl, { success, status });
 }
 
 
-// ====== 1. User-Agent & helper kecil ======
+// ====== 1. User-Agent & helper ======
 const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
@@ -66,13 +66,13 @@ const rawProxyList = process.env.PROXY_LIST || '';
 const proxyPool = rawProxyList
   .split(',')
   .map((p) => p.trim())
-  .filter(Boolean); // buang string kosong
+  .filter(Boolean);
 
-// ====== 2b. State per-proxy (cooldown) ======
-const proxyState = new Map(); // key: proxyUrl, value: { success, fail, last418, last429 }
+// ====== 2b. State per-proxy ======
+const proxyState = new Map(); 
 
-const COOLDOWN_418_MS = 5 * 60 * 1000; // 5 menit "istirahat" setelah 418
-const COOLDOWN_429_MS = 10 * 60 * 1000; // kalau kena 429 (rate limit), lebih lama
+const COOLDOWN_418_MS = 5 * 60 * 1000; 
+const COOLDOWN_429_MS = 10 * 60 * 1000; 
 
 function markProxyState(proxyUrl, { success, status }) {
   if (!proxyUrl) return;
@@ -101,7 +101,6 @@ function pickProxyFromPool() {
   if (proxyPool.length === 0) return null;
   const now = Date.now();
 
-  // filter proxy yang lagi cooldown
   const healthy = proxyPool.filter((p) => {
     const st = proxyState.get(p);
     if (!st) return true;
@@ -117,7 +116,7 @@ function pickProxyFromPool() {
 }
 
 
-// ====== 3. Bangun fingerprint headers ======
+// ====== 3. fingerprint headers ======
 function buildRandomHeaders() {
   const acceptLanguages = [
     'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -138,7 +137,6 @@ function buildRandomHeaders() {
     'Accept-Language': getRandomArrayItem(acceptLanguages),
     Referer: 'https://search.shopping.naver.com/ns/search',
 
-    // fingerprint-like headers
     'sec-ch-ua': getRandomArrayItem(secChUaList),
     'sec-ch-ua-mobile': getRandomArrayItem(secChUaMobile),
     'sec-ch-ua-platform': getRandomArrayItem(secChUaPlatform),
@@ -147,7 +145,7 @@ function buildRandomHeaders() {
   };
 }
 
-// ====== 4. Axios client per request (dengan/ tanpa proxy) ======
+// ====== 4. Axios client per request ======
 function createHttpClientForRequest() {
   const useProxy = process.env.USE_PROXY === '1';
 
@@ -163,7 +161,7 @@ function createHttpClientForRequest() {
   let proxyUrl = null;
 
   if (proxyPool.length > 0) {
-    proxyUrl = pickProxyFromPool(); // <<< pakai fungsi baru
+    proxyUrl = pickProxyFromPool(); 
   } else if (process.env.PROXY_HOST && process.env.PROXY_PORT) {
     const scheme = process.env.PROXY_SCHEME || 'http';
 
@@ -212,9 +210,9 @@ function isValidNaverApiUrl(url) {
   }
 }
 
-// ====== 6. Mapper: rapikan output produk ======
+// ====== 6. Mapper: output produk ======
 function mapNaverProducts(raw) {
-  // raw = response.data dari axios
+
   const inner = raw && raw.data ? raw.data : {};
   const cards = Array.isArray(inner.data) ? inner.data : [];
 
@@ -282,16 +280,16 @@ function mapNaverProducts(raw) {
 
 // ====== 7. Simple throttling (global concurrency) ======
 let inFlight = 0;
-const MAX_CONCURRENT = 1; // bisa di-tune
-const BASE_DELAY_MS = 3000; // delay dasar
-const RANDOM_DELAY_MS = 4000; // delay random tambahan
+const MAX_CONCURRENT = 1; 
+const BASE_DELAY_MS = 3000; 
+const RANDOM_DELAY_MS = 4000; 
 
 async function throttle() {
-  // delay random biar pola request nggak terlalu rapi
+
   const delay = BASE_DELAY_MS + Math.random() * RANDOM_DELAY_MS;
   await sleep(delay);
 
-  // batasi request paralel
+  
   while (inFlight >= MAX_CONCURRENT) {
     await sleep(100);
   }
@@ -306,11 +304,10 @@ app.get('/', (req, res) => {
   res.json({ ok: true, message: 'Naver scraper API up & running' });
 });
 
-// ====== 10. Endpoint utama: /naver?url=... ======
+// ====== 10. Endpoint utama ======
 app.get('/naver', async (req, res) => {
   const start = Date.now();
 
-  // ambil 'url' dasar
   let targetUrl = req.query.url;
 
   if (!targetUrl) {
@@ -321,7 +318,6 @@ app.get('/naver', async (req, res) => {
     });
   }
 
-  // gabungkan query lain (pageSize, query, dll) ke dalam targetUrl
   const extraParams = { ...req.query };
   delete extraParams.url;
 
@@ -333,7 +329,6 @@ app.get('/naver', async (req, res) => {
     }
   }
 
-  // validasi setelah digabung
   if (!isValidNaverApiUrl(targetUrl)) {
     return res.status(400).json({
       success: false,
@@ -356,7 +351,6 @@ app.get('/naver', async (req, res) => {
     const duration = Date.now() - start;
     console.log('[naver] OK in', duration, 'ms');
 
-    // 🧹 DI SINI KITA RAPIKAN HASILNYA
     const { meta, products } = mapNaverProducts(response.data);
 
     // LOG BERHASIL
@@ -409,13 +403,12 @@ app.get('/naver', async (req, res) => {
     if (err.response?.data) {
       const data = err.response.data;
       if (typeof data === 'string' && data.trim().startsWith('<')) {
-        errorPayload.naverResponse = data.slice(0, 5000); // batasi panjang HTML
+        errorPayload.naverResponse = data.slice(0, 5000); 
       } else {
         errorPayload.naverResponse = data;
       }
     }
 
-    // LOG GAGAL
     logProxyUsage({
       proxyUrl,
       success: false,

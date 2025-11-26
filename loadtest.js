@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const BASE = 'https://unprecedented-designedly-buddy.ngrok-free.dev';
 
-// FULL Naver API URL persis seperti dari Network tab
+// FULL Naver API URL 
 const NAVER_URL =
   'https://search.shopping.naver.com/ns/v1/search/paged-composite-cards' +
   '?cursor=1&pageSize=50&query=iphone' +
@@ -24,9 +24,9 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-// delay acak “lebih manusiawi”
+// delay acak 
 // sukses  : 1.5s – 4s
-// gagal   : 3s – 7s (kasih jeda lebih panjang biar keliatan "istirahat" setelah error)
+// gagal   : 3s – 7s 
 function randomBetween(minMs, maxMs) {
   return minMs + Math.floor(Math.random() * (maxMs - minMs + 1));
 }
