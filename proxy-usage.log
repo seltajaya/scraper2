@@ -1,0 +1,11 @@
+{"time":"2025-11-26T16:32:25.361Z","proxy":"http://216.26.242.107:3129","success":true,"status":200,"errorCode":null,"note":"OK in 6498ms, products=50"}
+{"time":"2025-11-26T16:33:01.138Z","proxy":"http://216.26.249.102:3129","success":true,"status":200,"errorCode":null,"note":"OK in 9452ms, products=50"}
+{"time":"2025-11-26T16:33:11.731Z","proxy":"http://209.50.187.169:3129","success":true,"status":200,"errorCode":null,"note":"OK in 6708ms, products=50"}
+{"time":"2025-11-26T16:33:22.105Z","proxy":"http://216.26.252.95:3129","success":true,"status":200,"errorCode":null,"note":"OK in 7565ms, products=50"}
+{"time":"2025-11-26T16:33:34.541Z","proxy":"http://216.26.236.85:3129","success":true,"status":200,"errorCode":null,"note":"OK in 8917ms, products=50"}
+{"time":"2025-11-26T16:33:44.758Z","proxy":"http://216.26.247.191:3129","success":false,"status":418,"errorCode":"ERR_BAD_REQUEST","note":"Naver sementara membatasi akses dari IP ini (HTTP 418). Biasanya terjadi jika terlalu banyak request, memakai VPN/proxy tertentu, atau pola akses terdeteksi sebagai bot."}
+{"time":"2025-11-26T16:33:55.750Z","proxy":"http://209.50.174.160:3129","success":false,"status":418,"errorCode":"ERR_BAD_REQUEST","note":"Naver sementara membatasi akses dari IP ini (HTTP 418). Biasanya terjadi jika terlalu banyak request, memakai VPN/proxy tertentu, atau pola akses terdeteksi sebagai bot."}
+{"time":"2025-11-26T16:34:05.523Z","proxy":"http://209.50.183.129:3129","success":false,"status":418,"errorCode":"ERR_BAD_REQUEST","note":"Naver sementara membatasi akses dari IP ini (HTTP 418). Biasanya terjadi jika terlalu banyak request, memakai VPN/proxy tertentu, atau pola akses terdeteksi sebagai bot."}
+{"time":"2025-11-26T16:34:15.585Z","proxy":"http://209.50.167.25:3129","success":true,"status":200,"errorCode":null,"note":"OK in 6371ms, products=50"}
+{"time":"2025-11-26T16:34:25.809Z","proxy":"http://216.26.242.107:3129","success":true,"status":200,"errorCode":null,"note":"OK in 8226ms, products=50"}
+{"time":"2025-11-26T16:34:36.311Z","proxy":"http://216.26.249.181:3129","success":true,"status":200,"errorCode":null,"note":"OK in 6656ms, products=50"}

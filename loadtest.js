@@ -32,7 +32,7 @@ function randomBetween(minMs, maxMs) {
 }
 
 async function run() {
-  const TOTAL = 1000;
+  const TOTAL = 10;
   let success = 0;
   let fail = 0;
   let totalTime = 0;

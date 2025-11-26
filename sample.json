@@ -1,0 +1,911 @@
+{
+  "success": true,
+  "url": "https://search.shopping.naver.com/ns/v1/search/paged-composite-cards?cursor=1&pageSize=50&query=iphone&searchMethod=all.basic&isFreshCategory=false&isOriginalQuerySearch=false&isCatalogDiversifyOff=false&listPage=1&categoryIdsForPromotions=50000204%2C50000205%2C50000209&hiddenNonProductCard=true&hasMoreAd=true&hasMore=true&score=4.8%7C5",
+  "meta": {
+    "total": 117952,
+    "cursor": 39,
+    "hasMore": true
+  },
+  "products": [
+    {
+      "id": 89296878359,
+      "name": "아이폰 6s 32G 공기계 세컨폰 스페이스그레이 배터리 미교체",
+      "price": 174000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8929687/89296878359.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11752367840",
+      "mallName": "벨류온애용",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fvalueonaeyong",
+      "rating": 5,
+      "reviewCount": 21,
+      "isAd": true,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89657746238,
+      "name": "아이폰 6s 32G 공기계 학생폰 실버 배터리미교체",
+      "price": 174000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8965774/89657746238.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12113235533",
+      "mallName": "벨류온애용",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fvalueonaeyong",
+      "rating": 5,
+      "reviewCount": 5,
+      "isAd": true,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89503984326,
+      "name": "아이폰7 32G 공기계 세컨폰 매트블랙 배터리 미교체",
+      "price": 177000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8950398/89503984326.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11959473638",
+      "mallName": "벨류온애용",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fvalueonaeyong",
+      "rating": 5,
+      "reviewCount": 10,
+      "isAd": true,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89666335005,
+      "name": "아이폰se1 아이폰 공기계 스페이스그레이 32G 배터리미교체",
+      "price": 193000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8966633/89666335005.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12121824300",
+      "mallName": "벨류온애용",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fvalueonaeyong",
+      "rating": 4.94,
+      "reviewCount": 31,
+      "isAd": true,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89924385179,
+      "name": "애플 아이폰 17 자급제 256GB 화이트",
+      "price": 1290000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385179.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874462",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.9,
+      "reviewCount": 914,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385190,
+      "name": "애플 아이폰 17 프로 자급제 256GB 딥 블루",
+      "price": 1790000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385190.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874473",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.93,
+      "reviewCount": 588,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385191,
+      "name": "애플 아이폰 17 프로 자급제 512GB 실버 9차예약",
+      "price": 2090000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385191.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874474",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.84,
+      "reviewCount": 394,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89679698641,
+      "name": "아이폰se 아이폰se1 공기계 모두의애플 se1 골드 WIFI 16GB",
+      "price": 116500,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8967969/89679698641.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12135187936",
+      "mallName": "모두의애플",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fjobsbytim",
+      "rating": 4.84,
+      "reviewCount": 63,
+      "isAd": false,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89924385375,
+      "name": "애플 아이폰 에어 자급제 eSIM전용",
+      "price": 1590000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385375.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874658",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.9,
+      "reviewCount": 542,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89981294581,
+      "name": "아이폰SE 16GB 공기계 무음 카메라 세컨폰 사진용 스페이스그레이 리클래식",
+      "price": 129000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8998129/89981294581.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12436783834",
+      "mallName": "리클래식 Reclassic",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Freclassic",
+      "rating": 4.9,
+      "reviewCount": 60,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89657729902,
+      "name": "아이폰se1 아이폰공기계 32G 로즈골드 배터리 미교체",
+      "price": 193000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8965772/89657729902.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12113219197",
+      "mallName": "벨류온애용",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fvalueonaeyong",
+      "rating": 5,
+      "reviewCount": 8,
+      "isAd": true,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89924385185,
+      "name": "애플 아이폰 17 자급제 512GB 미스트 블루",
+      "price": 1590000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385185.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874468",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.96,
+      "reviewCount": 47,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385189,
+      "name": "애플 아이폰 17 프로 자급제 256GB 코스믹 오렌지 9차예약",
+      "price": 1790000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385189.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874472",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.91,
+      "reviewCount": 446,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385197,
+      "name": "애플 아이폰 17 프로 맥스 자급제 256GB 실버 9차예약",
+      "price": 1990000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385197.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874480",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.92,
+      "reviewCount": 168,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 88220620043,
+      "name": "아이폰se1 아이폰 공기계 언락폰 자급제폰 실버",
+      "price": 215000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8822062/88220620043.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/10676114121",
+      "mallName": "벨류온애용",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fvalueonaeyong",
+      "rating": 5,
+      "reviewCount": 12,
+      "isAd": true,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385192,
+      "name": "애플 아이폰 17 프로 자급제 512GB 코스믹 오렌지 9차예약",
+      "price": 2090000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385192.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874475",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.9,
+      "reviewCount": 108,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89294857599,
+      "name": "애플 아이폰 16e 자급제",
+      "price": 990000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8929485/89294857599.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11750347082",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.84,
+      "reviewCount": 155,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385363,
+      "name": "애플 아이폰 17 프로 맥스 자급제 256GB 코스믹 오렌지 9차예약",
+      "price": 1990000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385363.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874646",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.99,
+      "reviewCount": 112,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89981338832,
+      "name": "아이폰6s 16GB 공기계 무음 카메라 세컨폰 사진용 실버 리클래식",
+      "price": 129000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8998133/89981338832.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12436828085",
+      "mallName": "리클래식 Reclassic",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Freclassic",
+      "rating": 4.86,
+      "reviewCount": 58,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 90122113965,
+      "name": "아이폰8 모두의애플 공기계 골드 64GB WIFI",
+      "price": 188000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_9012211/90122113965.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12577603109",
+      "mallName": "모두의애플",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fjobsbytim",
+      "rating": 5,
+      "reviewCount": 1,
+      "isAd": true,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89350493598,
+      "name": "아이폰6S 공기계 모두의애플 무음 6s 실버 16GB WIFI",
+      "price": 116500,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8935049/89350493598.6.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11805983011",
+      "mallName": "모두의애플",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fjobsbytim",
+      "rating": 4.87,
+      "reviewCount": 95,
+      "isAd": false,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385193,
+      "name": "애플 아이폰 17 프로 자급제 512GB 딥 블루 9차예약",
+      "price": 2090000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385193.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874476",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.89,
+      "reviewCount": 116,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385367,
+      "name": "애플 아이폰 17 프로 맥스 자급제 512GB 딥 블루 9차예약",
+      "price": 2290000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385367.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874650",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.94,
+      "reviewCount": 65,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 88522056845,
+      "name": "아이폰se2 아이폰공기계 언락폰 화이트 64G 배터리 정품",
+      "price": 264000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8852205/88522056845.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/10977550802",
+      "mallName": "벨류온애용",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fvalueonaeyong",
+      "rating": 5,
+      "reviewCount": 13,
+      "isAd": true,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89961024389,
+      "name": "아이폰7 32GB 신품급 감성카메라 배터리100% 로켓배송 국내배송",
+      "price": 149500,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8996102/89961024389.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12416513664",
+      "mallName": "몽구하우스",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fopop1557",
+      "rating": 5,
+      "reviewCount": 10,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89328642938,
+      "name": "아이폰6s 32GB 신품급 감성카메라 배터리100%",
+      "price": 130500,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8932864/89328642938.4.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11784132351",
+      "mallName": "몽구하우스",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fopop1557",
+      "rating": 4.84,
+      "reviewCount": 86,
+      "isAd": false,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89294857595,
+      "name": "애플 아이폰 16e 자급제",
+      "price": 1140000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8929485/89294857595.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11750347077",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.84,
+      "reviewCount": 155,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 88800011128,
+      "name": "Apple 아이폰 15 프로 256GB [자급제] 화이트 티타늄",
+      "price": 1590000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8880001/88800011128.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11255500797",
+      "mallName": "스마트마켓 85",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsmartmarket_85",
+      "rating": 5,
+      "reviewCount": 2,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 88612935201,
+      "name": "아이폰se2 공기계 언락폰 화이트 64G 세컨폰 배터리 85-95%",
+      "price": 264000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8861293/88612935201.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11068428990",
+      "mallName": "벨류온애용",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fvalueonaeyong",
+      "rating": 5,
+      "reviewCount": 2,
+      "isAd": true,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89150564965,
+      "name": "Apple 아이폰 15 프로 자급제",
+      "price": 1358550,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8915056/89150564965.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11606054559",
+      "mallName": "타조83",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fxkwh83",
+      "rating": 5,
+      "reviewCount": 14,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89899514757,
+      "name": "아이폰15프로 256G 애플 미개봉 새상품",
+      "price": 751740,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8989951/89899514757.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12355004040",
+      "mallName": "응답하라 휴대폰",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsellbyuscaredbyus",
+      "rating": 5,
+      "reviewCount": 1,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385381,
+      "name": "애플 아이폰 에어 자급제 eSIM전용",
+      "price": 1890000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385381.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874664",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.9,
+      "reviewCount": 542,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89922013055,
+      "name": "아이폰 17 프로 iPhone17 Pro 홍콩판 듀얼심 무음카메라 자급제 256GB",
+      "price": 1899980,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992201/89922013055.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12377502338",
+      "mallName": "올어라운드홍콩",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fallaroundhk",
+      "rating": 5,
+      "reviewCount": 11,
+      "isAd": true,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89981417405,
+      "name": "아이폰Xs 64GB 공기계 무음 카메라 세컨폰 사진용 스페이스그레이 리클래식",
+      "price": 329000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8998141/89981417405.2.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12436906658",
+      "mallName": "리클래식 Reclassic",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Freclassic",
+      "rating": 4.88,
+      "reviewCount": 17,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89926108293,
+      "name": "애플 아이폰17 프로 홍콩판 256GB 물리심+e심 카메라무음 자급제 미개봉 공기계폰",
+      "price": 1955400,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992610/89926108293.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12381597576",
+      "mallName": "HKPHONE",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fhkphone",
+      "rating": 5,
+      "reviewCount": 18,
+      "isAd": false,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89981379834,
+      "name": "아이폰7 32GB 공기계 무음 카메라 세컨폰 사진용 실버 리클래식",
+      "price": 169000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8998137/89981379834.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12436869087",
+      "mallName": "리클래식 Reclassic",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Freclassic",
+      "rating": 5,
+      "reviewCount": 13,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89666335005,
+      "name": "아이폰se1 아이폰 공기계 스페이스그레이 32G 배터리미교체",
+      "price": 193000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8966633/89666335005.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12121824300",
+      "mallName": "벨류온애용",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fvalueonaeyong",
+      "rating": 4.94,
+      "reviewCount": 31,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000249"
+      ]
+    },
+    {
+      "id": 89923435613,
+      "name": "아이폰 17 프로 iPhone17 Pro 홍콩판 듀얼심 무음카메라 자급제 256GB",
+      "price": 1899980,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992343/89923435613.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12378924896",
+      "mallName": "올어라운드홍콩",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fallaroundhk",
+      "rating": 5,
+      "reviewCount": 11,
+      "isAd": true,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 88573763568,
+      "name": "Apple 애플 아이폰 13 미니 128GB 새상품",
+      "price": 298000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8857376/88573763568.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11029257361",
+      "mallName": "더드림 쇼핑몰",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fthedreamich",
+      "rating": 5,
+      "reviewCount": 2,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924483393,
+      "name": "미국 아이폰 17 프로 맥스 256GB - iPhone Pro Max - 직구 무음 카메라",
+      "price": 2260000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992448/89924483393.2.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379972676",
+      "mallName": "구팡",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fgupang",
+      "rating": 4.86,
+      "reviewCount": 14,
+      "isAd": false,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89265750467,
+      "name": "아이폰 16 프로 자급제",
+      "price": 2200000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8926575/89265750467.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11721239968",
+      "mallName": "재용이폰",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fstorysamsung",
+      "rating": 4.92,
+      "reviewCount": 195,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89922214004,
+      "name": "애플 아이폰17 에어 홍콩 홍콩판 iPhone17듀얼심 무음카메라 자급제 512GB",
+      "price": 1999980,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992221/89922214004.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12377703287",
+      "mallName": "올어라운드홍콩",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fallaroundhk",
+      "rating": 5,
+      "reviewCount": 1,
+      "isAd": true,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89926122121,
+      "name": "애플 아이폰17 프로 맥스 홍콩판 256GB 물리심+e심 카메라무음 자급제 공기계 홍콩폰",
+      "price": 2212000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992612/89926122121.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12381611404",
+      "mallName": "HKPHONE",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fhkphone",
+      "rating": 5,
+      "reviewCount": 8,
+      "isAd": false,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385195,
+      "name": "애플 아이폰 17 프로 자급제 1TB 코스믹 오렌지 9차예약",
+      "price": 2390000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385195.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874478",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.96,
+      "reviewCount": 25,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89926063437,
+      "name": "애플 아이폰17 256GB 홍콩판 물리심+e심 카메라무음 자급제 미개봉 새상품 공기계폰",
+      "price": 1445000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992606/89926063437.2.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12381552720",
+      "mallName": "HKPHONE",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fhkphone",
+      "rating": 5,
+      "reviewCount": 9,
+      "isAd": false,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 90176189195,
+      "name": "Apple 아이폰 15 256GB [자급제 미개봉]블루 MTP93KH/A",
+      "price": 1050000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_9017618/90176189195.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12631678339",
+      "mallName": "오스카글로벌",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Foscarg",
+      "rating": 5,
+      "reviewCount": 4,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89266643575,
+      "name": "아이폰 16 프로 자급제",
+      "price": 1750000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8926664/89266643575.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11722133076",
+      "mallName": "재용이폰",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fstorysamsung",
+      "rating": 4.92,
+      "reviewCount": 195,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89927786473,
+      "name": "호주직구) 아이폰 17 IPHONE 17 256GB",
+      "price": 1399000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992778/89927786473.1.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12383275756",
+      "mallName": "호주남자",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Faussieman",
+      "rating": 4.98,
+      "reviewCount": 58,
+      "isAd": false,
+      "isOverseaProduct": true,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50000250"
+      ]
+    },
+    {
+      "id": 89265760573,
+      "name": "아이폰 16 프로 자급제",
+      "price": 2600000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8926576/89265760573.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/11721250074",
+      "mallName": "재용이폰",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fstorysamsung",
+      "rating": 4.92,
+      "reviewCount": 195,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    },
+    {
+      "id": 89924385479,
+      "name": "애플 아이폰 에어 자급제 eSIM전용",
+      "price": 2190000,
+      "imageUrl": "https://shopping-phinf.pstatic.net/main_8992438/89924385479.jpg",
+      "productUrl": "https://smartstore.naver.com/main/products/12379874762",
+      "mallName": "애플 공식 브랜드스토어",
+      "mallUrl": "https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbluebox00718",
+      "rating": 4.9,
+      "reviewCount": 542,
+      "isAd": false,
+      "isOverseaProduct": false,
+      "categories": [
+        "50000003",
+        "50000204",
+        "50001519"
+      ]
+    }
+  ]
+}
